@@ -1,13 +1,15 @@
 import * as React from "react"
-import type { HeadFC, PageProps } from "gatsby"
+import Header from '../components/Header'
 
-
-const LandingPage: React.FC<PageProps> = () => {
+function LandingPage() {
   return (
-    <div> INDEX</div>
-  )
+    <>
+      <Header />
+      {/* // <Hero />
+      // <About />
+      // <Projects /> */}
+    </>
+  );
 }
 
 export default LandingPage
-
-export const Head: HeadFC = () => <title>Home Page</title>
