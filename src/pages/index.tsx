@@ -1,13 +1,12 @@
 import * as React from "react"
 import Header from '../components/Header'
+import Hero from '../components/Hero'
 
 function LandingPage() {
   return (
     <>
       <Header />
-      {/* // <Hero />
-      // <About />
-      // <Projects /> */}
+      <Hero />
     </>
   );
 }
